@@ -80,7 +80,8 @@ def install_riemann():
 
     files_to_remove = [riemann_config_path,
                        riemann_log_path,
-                       extra_classpath]
+                       extra_classpath,
+                       riemann_dir]
     runtime_props['files_to_remove'] = files_to_remove
 
 
